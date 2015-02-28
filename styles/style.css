@@ -14,37 +14,100 @@ html, body, .page{
 
 body > .page{
 	height: auto;
-	min-height: 99%;
 }
 
 .page{
 	padding: 2%;
 }
 
-.col1, .col2, .col3{
+.col{
 	width: 32%;
 	border: 1px solid red;
+	float: left;
 }
 
-.col1 .block{
+.col:nth-of-type(1){
+
 }
 
-.col1 .block:nth-of-type(1){
-	width: 46%;
-	border: 1px solid green;
+.col:nth-of-type(2){
+
 }
 
-.col1 .block:nth-of-type(2){
-	width: 46%;
-	border: 1px solid greenyellow;
+.col:nth-of-type(3){
+
 }
 
-.col1 .block:nth-last-of-type(3){
-	width: 95%;
+.block{
+
+}
+
+.text{
+	font-family: 'Arial', sans-serif;
+	font-size: medium;
+	color: #ffffff;
+	margin-left: 15px;
+}
+
+.col:nth-of-type(1) .block:nth-of-type(1){
+	width: 48%;
+	background: #00be02;
+
+}
+
+.col:nth-of-type(1) .block:nth-of-type(2){
+	width: 48%;
+	background: #8023e3;
+
+}
+
+.col:nth-of-type(1) .block:nth-last-of-type(3){
+	width: 100%;
+	background: #008bbe;
 	border: 1px solid darkgreen;
 }
 
-.col1 .block:nth-last-of-type(4){
-	width: 95%;
+.col:nth-of-type(1) .block:nth-last-of-type(4){
+	width: 100%;
+	/*background-image: url("../img/metro1/cassettiera.png");*/
 	border: 1px solid orangered;
+}
+
+.col:nth-of-type(2) .block:nth-of-type(1){
+	width: 46%;
+	background: #0d1e88;
+}
+
+.col:nth-of-type(2) .block:nth-of-type(2){
+	width: 46%;
+	background: #019add
+}
+
+.col:nth-of-type(2) .block:nth-of-type(3){
+	width: 95%;
+}
+
+.col:nth-of-type(3) .block:nth-of-type(1){
+	width: 95%;
+	background: #8223e3;
+}
+
+.col:nth-of-type(3) .block:nth-of-type(2){
+	width: 46%;
+	background: #ad193d;
+}
+
+.col:nth-of-type(3) .block:nth-of-type(3){
+	width: 46%;
+	background: #fbca03;
+}
+
+.col:nth-of-type(3) .block:nth-of-type(4){
+	width: 46%;
+	background: #f26e02;
+}
+
+.col:nth-of-type(3) .block:nth-of-type(5){
+	width: 46%;
+	background: #d700e2;
 }
