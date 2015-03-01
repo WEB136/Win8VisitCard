@@ -1,12 +1,12 @@
+/*Обнуление*/
 *{
 	margin: 0;
 	padding: 0;
 }
+/*Обнуление*/
 
-.clear{
-	clear: both;
-}
 
+/*Установка 100% высоты*/
 html, body, .page{
 	min-height: 100% !important;
 	height: 100% !important;
@@ -14,16 +14,38 @@ html, body, .page{
 
 body > .page{
 	height: auto;
-}
 
-.page{
+}
+/*Установка 100% высоты*/
+
+body{
 	padding: 2%;
+
+	background: #06162f; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #06162f 0%, #baaddb 0%, #4553ac 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#06162f), color-stop(0%,#baaddb), color-stop(100%,#4553ac)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #06162f 0%,#baaddb 0%,#4553ac 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #06162f 0%,#baaddb 0%,#4553ac 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #06162f 0%,#baaddb 0%,#4553ac 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #06162f 0%,#baaddb 0%,#4553ac 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#06162f', endColorstr='#4553ac',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 }
 
+.cols-holder{
+	margin:0 auto;
+	max-width: 1149px;
+	max-height: 492px;
+	position: relative;
+	top:20%;
+	height:100%;
+}
+
+/*Большие колонки*/
 .col{
 	width: 32%;
-	border: 1px solid red;
 	float: left;
+	height: 100%;
 }
 
 .col:nth-of-type(1){
@@ -38,13 +60,13 @@ body > .page{
 .col:nth-of-type(3){
 
 }
+/*Большие колонки*/
 
+/*Блоки внутри колонок*/
 .block{
 	width: 100%;
-}
-
-.half{
-	width: 49%;
+	height: 33%;
+	float: left;
 }
 
 .text{
@@ -62,7 +84,7 @@ body > .page{
 }
 
 .col:nth-of-type(1) .block:nth-of-type(1){
-	width: 48%;
+	/*width: 48%;*/
 	background: #00be02;
 }
 
@@ -71,7 +93,7 @@ body > .page{
 }
 
 .col:nth-of-type(1) .block:nth-of-type(2){
-	width: 48%;
+	/*width: 48%;*/
 	background: #8023e3;
 }
 
@@ -82,7 +104,6 @@ body > .page{
 .col:nth-of-type(1) .block:nth-of-type(3){
 	width: 100%;
 	background: #008bbe;
-	border: 1px solid darkgreen;
 }
 
 .col:nth-of-type(1) .block:nth-of-type(3)p.quote{
@@ -96,7 +117,6 @@ body > .page{
 .col:nth-of-type(1) .block:nth-of-type(4){
 	width: 100%;
 	/*background-image: url("../img/metro1/cassettiera.png");*/
-	border: 1px solid orangered;
 }
 
 .col:nth-of-type(1) .block:nth-of-type(4)img{
@@ -104,43 +124,55 @@ body > .page{
 }
 
 .col:nth-of-type(2) .block:nth-of-type(1){
-	width: 46%;
 	background: #0d1e88;
 }
 
 .col:nth-of-type(2) .block:nth-of-type(1)p{
 	padding: auto;
 }
+
 .col:nth-of-type(2) .block:nth-of-type(2){
-	width: 46%;
 	background: #019add
 }
 
-.col:nth-of-type(2) .block:nth-of-type(3){
-	width: 100%;
-}
-
 .col:nth-of-type(3) .block:nth-of-type(1){
-	width: 100%;
 	background: #8223e3;
 }
 
 .col:nth-of-type(3) .block:nth-of-type(2){
-	width: 46%;
 	background: #ad193d;
 }
 
 .col:nth-of-type(3) .block:nth-of-type(3){
-	width: 46%;
 	background: #fbca03;
 }
 
 .col:nth-of-type(3) .block:nth-of-type(4){
-	width: 46%;
 	background: #f26e02;
 }
 
 .col:nth-of-type(3) .block:nth-of-type(5){
-	width: 46%;
 	background: #d700e2;
 }
+/*Блоки внутри колонок*/
+
+/*Служебные классы*/
+.clear{
+	clear: both;
+}
+
+.image{
+	display: block;
+	width:100%;
+	height: 100%;
+}
+
+.half{
+	width: 50%;
+}
+
+.height66{
+	height: 66%;
+}
+/*Служебные классы*/
+
