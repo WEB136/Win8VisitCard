@@ -80,13 +80,13 @@ body > .page{
 	clear: both;
 }
 
-.image{
+.icon{
 	display: block;
 	width:100%;
 	height: 70%;
 }
 
-.image100{
+.image{
 	height: 100%;
 	width: 100%;
 }
