@@ -31,23 +31,38 @@ body{
 
 .colon:nth-of-type(1) .block:nth-of-type(1){
 	background: #1bb194;
+	background-image: url("./../img/metro5/buy_template.png");
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .colon:nth-of-type(1) .block:nth-of-type(2){
 	background: #dd6a11;
+	background-image: url("./../img/metro5/about.png");
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .colon:nth-of-type(1) .block:nth-of-type(3){
 	background: #2e8cca;
+	background-image: url("./../img/metro5/portfolio.png");
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .colon:nth-of-type(1) .block:nth-of-type(4){
 	background: #954fb2;
+	background-image: url("./../img/metro5/contact.png");
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 
 .colon-width .block:nth-of-type(1){
 	background: #2abc69;
+	background-image: url("./../img/metro5/features.png");
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .colon-width .block:nth-of-type(2){
@@ -56,10 +71,16 @@ body{
 
 .colon-width .block:nth-of-type(3){
 	background: #278ed3;
+	background-image: url("./../img/metro5/our_service.png");
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .colon-width .block:nth-of-type(4){
 	background: #14af8f;
+	background-image: url("./../img/metro5/blog.png");
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .colon-width .block:nth-of-type(5){
@@ -81,19 +102,27 @@ body{
 }
 
 .colon:nth-of-type(2) .block:nth-of-type(1){
-
+	background-image: url("./../img/metro5/windows.png");
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 .colon:nth-of-type(2) .block:nth-of-type(2){
-
+	background-image: url("./../img/metro5/photography.png");
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .colon:nth-of-type(2) .block:nth-of-type(3){
-
+	background-image: url("./../img/metro5/design.png");
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .colon:nth-of-type(2) .block:nth-of-type(4){
-
+	background-image: url("./../img/metro5/motion.png");
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .colon:nth-of-type(3) .block:nth-of-type(1){
