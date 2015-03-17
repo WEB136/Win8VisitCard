@@ -3,6 +3,26 @@ body{
 
 }
 
+.text2{
+	font-family: 'Arial', sans-serif;
+	font-size: 13pt;
+	color: #ffffff;
+	margin-left: 15px;
+	position: relative;
+	top: 0.9em;
+	height: 30%;
+}
+
+.text3{
+	font-family: 'Arial', sans-serif;
+	font-size: 13pt;
+	color: #ffffff;
+	margin-left: 15px;
+	position: relative;
+	top: 0.2em;
+	height: 30%;
+}
+
 .colon{
 	width: 20%;
 	float: left;
@@ -29,11 +49,16 @@ body{
 	margin-right: 1%;
 }
 
+.colon:nth-of-type(1) .block{
+	background-size: cover;
+}
+
 .colon:nth-of-type(1) .block:nth-of-type(1){
 	background: #1bb194;
-	background-image: url("./../img/metro5/buy_template.png");
+	/*background-image: url("./../img/metro5/buy_template.png");
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
+
 }
 
 .colon:nth-of-type(1) .block:nth-of-type(2){
@@ -102,28 +127,34 @@ body{
 }
 
 .colon:nth-of-type(2) .block:nth-of-type(1){
-	background-image: url("./../img/metro5/windows.png");
+	/*background-image: url("./../img/metro5/windows.png");
 	background-position: center center;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
+	border: 1px ridge rgba(255, 255, 255, 0.2);
 }
 
 .colon:nth-of-type(2) .block:nth-of-type(2){
-	background-image: url("./../img/metro5/photography.png");
+/*	background-image: url("./../img/metro5/photography.png");
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; */
 }
 
 .colon:nth-of-type(2) .block:nth-of-type(3){
-	background-image: url("./../img/metro5/design.png");
+	/*background-image: url("./../img/metro5/design.png");
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 }
 
 .colon:nth-of-type(2) .block:nth-of-type(4){
-	background-image: url("./../img/metro5/motion.png");
+/*	background-image: url("./../img/metro5/motion.png");
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; */
 }
+
+.colon:nth-of-type(2) .block{
+	border: 1px ridge #ffffff;
+}
+
 
 .colon:nth-of-type(3) .block:nth-of-type(1){
 
