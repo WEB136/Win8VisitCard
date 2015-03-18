@@ -9,7 +9,7 @@ body{
 	color: #ffffff;
 	margin-left: 15px;
 	position: relative;
-	top: 1em;
+	/*top: 1em;*/
 	height: 30%;
 }
 
@@ -35,11 +35,11 @@ body{
 	/*border: 1px solid black;*/
 }
 
-.colon:nth-of-type(2) .block{
+.colon:nth-of-type(2).block{
 	border: 1px solid #ffffff;
 }
 
-.colon:nth-of-type(1) .block{
+.colon:nth-of-type(1).block{
 	height: 24%;
 }
 
