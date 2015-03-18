@@ -67,6 +67,7 @@ body > .page{
 	position: relative;
 	top: 7em;
 	height: 30%;
+
 }
 
 .quote{
@@ -107,8 +108,11 @@ p.icon img{
 }
 
 .half{
-	width: 50%;
+	width: 48%;
+}
 
+.half:nth-of-type(2n-1){
+	margin-right: 4%;
 }
 
 .height66{

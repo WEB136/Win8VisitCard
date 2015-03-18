@@ -3,17 +3,17 @@ body{
 
 }
 
-.text2{
+.text_block_invisible{
 	font-family: 'Arial', sans-serif;
 	font-size: 13pt;
 	color: #ffffff;
 	margin-left: 15px;
 	position: relative;
-	top: 0.9em;
+	top: 1em;
 	height: 30%;
 }
 
-.text3{
+.view_more{
 	font-family: 'Arial', sans-serif;
 	font-size: 13pt;
 	color: #ffffff;
@@ -35,6 +35,14 @@ body{
 	/*border: 1px solid black;*/
 }
 
+.colon:nth-of-type(2) .block{
+	border: 1px solid #ffffff;
+}
+
+.colon:nth-of-type(1) .block{
+	height: 24%;
+}
+
 .one-of-third{
 	width: 33%;
 }
@@ -49,9 +57,6 @@ body{
 	margin-right: 1%;
 }
 
-.colon:nth-of-type(1) .block{
-	background-size: cover;
-}
 
 .colon:nth-of-type(1) .block:nth-of-type(1){
 	background: #1bb194;
@@ -151,9 +156,7 @@ body{
 	background-repeat: no-repeat; */
 }
 
-.colon:nth-of-type(2) .block{
-	border: 1px ridge #ffffff;
-}
+
 
 
 .colon:nth-of-type(3) .block:nth-of-type(1){
