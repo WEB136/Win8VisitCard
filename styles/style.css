@@ -55,7 +55,7 @@ body > .page{
 	width: 100%;
 	height: 33%;
 	float: left;
-	margin-top: 2px;
+	margin-bottom: 2%;
 
 }
 
@@ -67,7 +67,16 @@ body > .page{
 	position: relative;
 	top: 7em;
 	height: 30%;
+}
 
+.text_metro2{
+	font-family: 'Arial', sans-serif;
+	font-size: 13pt;
+	color: #ffffff;
+	margin-left: 15px;
+	position: relative;
+	top: 6.5em;
+	height: 30%;
 }
 
 .quote{
