@@ -3,12 +3,27 @@ body{
 
 }
 
+ul{
+	float: left;
+	list-style: none;
+
+}
+
+ul li{
+	display: inline;
+	list-style: none;
+}
+
+.text_heading ul li{
+	list-style: none;
+}
+
 .text_heading{
 	width: 100%;
 	margin:0 auto;
 	max-width: 1100px;
 	position: relative;
-	top: 17%;
+	/*top: 12%;*/
 }
 
 .welcome,
@@ -16,16 +31,18 @@ body{
 .about{
 	float: left;
 	font-family: 'Arial', sans-serif;
-	font-size: 18pt;
+	font-size: 17pt;
 	color: #ffffff;
+	font-weight: 200;
 }
 
 .service{
-	margin-left: 55%;
+	margin-left: 46%;
 }
 
 .about{
 	margin-left: 77%;
+	bottom: 7%;
 }
 
 .text_block_invisible{
