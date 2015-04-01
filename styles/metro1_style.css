@@ -1,6 +1,7 @@
 body{
 	padding: 2%;
 	background: #06162f; /* Old browsers */
+
 	background: -moz-radial-gradient(center, ellipse cover,  #06162f 0%, #baaddb 0%, #4553ac 100%); /* FF3.6+ */
 	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#06162f), color-stop(0%,#baaddb), color-stop(100%,#4553ac)); /* Chrome,Safari4+ */
 	background: -webkit-radial-gradient(center, ellipse cover,  #06162f 0%,#baaddb 0%,#4553ac 100%); /* Chrome10+,Safari5.1+ */
