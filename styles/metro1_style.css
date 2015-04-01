@@ -1,6 +1,5 @@
 body{
 	padding: 2%;
-
 	background: #06162f; /* Old browsers */
 	background: -moz-radial-gradient(center, ellipse cover,  #06162f 0%, #baaddb 0%, #4553ac 100%); /* FF3.6+ */
 	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#06162f), color-stop(0%,#baaddb), color-stop(100%,#4553ac)); /* Chrome,Safari4+ */
@@ -138,18 +137,26 @@ body{
 @media only screen and (max-width:980px){
 
 
-
 }
 
 @media only screen and (max-width:800px){
+	.col:nth-of-type(1),
+	.col:nth-of-type(2){
+		width: 48%;
+	}
+
+	.col:nth-of-type(3){
+		width: 100%;
+	}
 
 
 
 }
 
 @media only screen and (max-width:640px){
-
-
+.col{
+	width: 100%;
+}
 
 }
 
