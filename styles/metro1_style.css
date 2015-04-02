@@ -123,7 +123,7 @@ body{
 	background-repeat: no-repeat;
 }
 
-.text1{
+.text_tweets{
 	font-family: 'Arial', sans-serif;
 	font-size: 13pt;
 	color: #ffffff;
@@ -135,33 +135,98 @@ body{
 
 /*  Adaptiv  */
 
-@media only screen and (max-width:980px){
+/*для экранов от 800 до 980px надо еще подумать.*/
 
+@media only screen and (max-width:980px){
+	/*.text_tweets{
+		top: 1em;
+	}
+
+	.text{
+		top: 0.5em;
+	}
+
+	.slogan{
+		padding-top: 2%;
+		padding-left: 3%;
+	}*/
 
 }
 
 @media only screen and (max-width:800px){
 	.col:nth-of-type(1),
 	.col:nth-of-type(2){
-		width: 48%;
+		width: 49%;
 	}
 
 	.col:nth-of-type(3){
 		width: 100%;
+		padding-top: 2%;
 	}
 
+	.col:nth-of-type(3) .block{
+		margin: 1%;
+	}
 
+	.text_tweets{
+		top: 2.7em;
+	}
 
+	.text{
+		top: 5em;
+	}
+
+	.slogan{
+		padding-top: 2%;
+		padding-left: 5%;
+	}
 }
 
 @media only screen and (max-width:640px){
-.col{
-	width: 100%;
-}
+	.col{
+		width: 100%;
+	}
 
+	.text{
+		top: 5em;
+	}
+
+	p.quote sub{
+		padding-top: 0;
+	}
 }
 
 @media only screen and (max-width:480px){
+	.col:nth-of-type(1),
+	.col:nth-of-type(2),
+	.col:nth-of-type(3){
+		width: 100%;
+		padding: 2.5%;
+	}
+
+	.text{
+		top: 5em;
+	}
+
+	.quote{
+		padding: 4%;
+		line-height: 1.5;
+	}
+
+	.text_tweets{
+		top: 2.8em;
+	}
+}
+
+@media only screen and (max-width:400px){
+	.col{
+		width: 100%;
+	}
+
+
+	.text{
+		top: 5em;
+	}
 
 
 }
